@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-lg-3 bg-primary text-center">
+          <img
+            src="./assets/claudinei.jpg"
+            class="img-fluid border border-3 rounded rounded-circle mt-5 mb-5"
+            alt="foto perfil"
+          />
+          <p>
+            <button type="button" class="btn btn-outline-info border-info">
+              Sobre
+            </button>
+          </p>
+          <p>
+            <button
+              type="button"
+              onclick="conhecimentos()"
+              class="btn btn-outline-info border-info"
+            >
+              Conhecimento
+            </button>
+          </p>
+          <p>
+            <button
+              type="button"
+              onclick="objetivos()"
+              class="btn btn-outline-info border-info"
+            >
+              Objetivos
+            </button>
+          </p>
+          <p class="pb-5">
+            <a href="mailto:oliveiraclaudinei786@gmail.com">
+              <img
+                class="rounded"
+                src="https://img.shields.io/badge/gmail-%23DD0031.svg?&style=for-the-badge&logo=gmail&logoColor=white"
+              />
+            </a>
+          </p>
+        </div>
+
+        <di class="col -12 col-sm-6 col-lg-9 bg-info">
+          <div class="container pt-5 mt-5 mb-2">
+            <div class="row">
+              <div class="col my-font">
+                <h1>
+                  <strong>
+                    CLAUDINEI
+                    <span class="text-danger mb-5">BRAGA DE OLIVEIRA</span>
+                  </strong>
+                </h1>
+                <br />
+
+                <h3>Av. Paraiso, n° 2148, Vale do Paraiso - RO</h3>
+                <h3>Tel: (69) 9 8435-0955</h3>
+                <hr />
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <p>
+                  Eu sou uma pessoa que almeja um futuro que me traga bons
+                  conhecimentos, que me proporcione novas experiencia.
+                </p>
+                <p>
+                  Sou prestativo, sempre procuro a opinião de pessoas mais
+                  experientes. Assim fazendo com que aumente tanto meu
+                  conhecimento proficional quanto pessoal.
+                </p>
+                <p>Gosto de me proporcionar a novos desafios.</p>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <nav>
+                  <a
+                    href="https://www.linkedin.com/in/claudinei-braga-de-oliveira-426292210/"
+                    target="_blank"
+                  >
+                    <img
+                      text-align="center"
+                      alt="Jaskirat's LinkedIn"
+                      width="24px"
+                      src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg"
+                    />
+                  </a>
+                  <a href="https://github.com/claudinei05" target="_blank">
+                    <img
+                      text-align="center"
+                      alt="Jaskirat's Facebook"
+                      width="24px"
+                      src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg"
+                    />
+                  </a>
+                  <a
+                    href="https://www.instagram.com/claudineibragadeoliveira/"
+                    target="_blank"
+                  >
+                    <img
+                      text-align="center"
+                      alt="Jaskirat's Instagram"
+                      width="24px"
+                      src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg"
+                    />
+                  </a>
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100005494905239"
+                    target="_blank"
+                  >
+                    <img
+                      text-align="center"
+                      alt="Jaskirat's Facebook"
+                      width="24px"
+                      src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg"
+                    />
+                  </a>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </di>
+      </div>
+    </div>
+    <script>
+      function conhecimentos() {
+        window.location.href = "./conhecimentos.html";
+      }
+
+      function objetivos() {
+        window.location.href = "./objetivos.html";
+      }
+    </script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

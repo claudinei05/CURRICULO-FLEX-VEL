@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="container-XL">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-lg-3 bg-primary text-center">
+          <img
+            src="./assets/claudinei.jpg"
+            class="img-fluid border border-3 rounded rounded-circle mt-5 mb-5"
+            alt="foto perfil"
+          />
+          <p>
+            <button
+              type="button"
+              onclick="sobre()"
+              class="btn btn-outline-info border-info"
+            >
+              Sobre
+            </button>
+          </p>
+          <p>
+            <button type="button" class="btn btn-outline-info border-info">
+              Conhecimento
+            </button>
+          </p>
+          <p>
+            <button
+              type="button"
+              onclick="objetivos()"
+              class="btn btn-outline-info border-info"
+            >
+              Objetivos
+            </button>
+          </p>
+          <p class="pb-5">
+            <a href="mailto:oliveiraclaudinei786@gmail.com">
+              <img
+                class="rounded"
+                src="https://img.shields.io/badge/gmail-%23DD0031.svg?&style=for-the-badge&logo=gmail&logoColor=white"
+              />
+            </a>
+          </p>
+        </div>
+
+        <div class="col -12 col-sm-6 col-lg-9 bg-info">
+          <div class="container pt-5 mt-5 mb-2">
+            <div class="row">
+              <div class="col my-font">
+                <h1>
+                  <strong>
+                    MEUS
+                    <span class="text-danger mb-5">CONHECIMENTOS</span>
+                  </strong>
+                </h1>
+                <br />
+
+                <hr />
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <ol type="A" style="text-align: left">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Animação CSS</li>
+                  <li>Tapscript</li>
+                  <li>JavaScript</li>
+                  <li>Visual Studio Code</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function sobre() {
+        window.location.href = "./index.html";
+      }
+
+      function objetivos() {
+        window.location.href = "./objetivos.html";
+      }
+    </script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
